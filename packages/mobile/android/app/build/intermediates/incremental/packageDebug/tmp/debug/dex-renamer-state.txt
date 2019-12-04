@@ -1,0 +1,4 @@
+#Tue Dec 03 08:15:29 EET 2019
+base.0=/home/ahmed/Documents/fudex/appwithlerna/packages/mobile/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+path.0=classes.dex

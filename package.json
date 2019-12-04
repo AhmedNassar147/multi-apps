@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf ./packages/*/node_modules",
+    "clean-locks": "rm -rf ./packages/*/yarn.lock",
+    "bootstrap": "lerna bootstrap",
+    "build-comons": "cd packages/commons && lerna add @app-structure/commons packages/mobile",
+    "and-mob-get-comns": "cd packages/commons && lerna add @app-structure/commons packages/mobile",
+    "andstrt": "cd packages/mobile && yarn start",
+    "android": "cd packages/mobile && yarn android",
+    "reset": "yarn clean && yarn clean-locks && yarn bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  }
+}
